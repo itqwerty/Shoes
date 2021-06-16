@@ -1,0 +1,165 @@
+/*__________________top-line_________________*/
+
+
+.header__top-line {
+	background: #242424;
+	
+}
+.header__row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo {
+ 	font-size: 26px;
+ 	color: #57C5A0;
+ 	text-transform: uppercase;
+}
+
+.header__search {
+	color: #7E7E7E;
+	margin: 0 22px;
+	background: transparent;
+	border: none;
+}
+
+.header__login-block {
+	display: flex;
+	align-items: center;
+}
+
+.header__reg {
+  font-size: 11px;
+  color: #7E7E7E;
+  padding: 18px 22px;
+  border: none;
+  border-left: 1px solid #383838;
+  border-right: 1px solid #383838;
+  background: transparent;
+}
+
+.header__reg:hover, .header__search:hover {
+	cursor: pointer;
+	color: #fff;
+}
+
+
+/*__________________menu___________________*/
+
+.nav-mobile{
+	display: none;
+	background: #C9C9C9;
+	padding: 10px;
+	border-radius: 8px;
+	width: 70vw;
+	height: 100vh;
+	border: 2px solid #000;
+	transform-origin: top;
+	transform: rotateX(90deg);
+	transition: all ease 1s;
+	z-index: 1;
+	position: fixed;
+}
+
+.nav-mobile__list{
+	position: fixed;
+}
+.mobile-bar {
+	color: #C9C9C9;
+	-webkit-text-stroke: 0.5px #000000;
+	display: none;
+	position: fixed;
+	z-index: 2;
+}
+
+.nav-mobile li {
+	margin-bottom: 15px;
+	padding-left: 30px;
+	border-radius: 8px;
+}
+
+.nav-mobile li a {
+	font-size: 50px;
+	color: #fff;
+}
+
+.nav-mobile li:hover {
+	background: #4A4A4A;
+}
+
+.mobile-bar:hover + .nav-mobile  {
+	transform: rotateX(0deg);
+	transition: all ease 1s;
+}
+
+.header__menu {
+	background: #fff;
+}
+
+.nav-desktop a {
+  font-size: 16px;
+  color: #242424;
+}
+
+.nav-desktop__list {
+	display: flex;
+	border-right: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+}
+
+.nav-desktop__list li {
+	padding: 24px 22px;
+	border-right: 1px solid #eeeeee;
+}
+
+.nav-desktop__list li:last-child {
+	border: none;
+}
+
+.storage {
+	display: flex;
+	border-right: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
+}
+
+.storage__wishlist, .storage__cartlist {
+	padding: 24px 22px;
+}
+
+.storage__wishlist {
+	border-right: 1px solid #eeeeee;
+}
+
+.storage i {
+	margin-right: 8px;
+	color: #adadad;
+}
+
+
+.storage span {
+  border-radius: 4px;
+  background-color: #adadad;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  line-height: 20px;
+}
+
+.storage__cartlist_active {
+	background-color: #57C5A0 !important;
+}
+
+.storage span:hover {
+	cursor: pointer;
+	background-color: #57C5A0;
+}
+
+.storage i:hover{
+	cursor: pointer;
+	color: #57C5A0; 
+}

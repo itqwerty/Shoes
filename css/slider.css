@@ -1,0 +1,146 @@
+.slider__img {
+	background-image: url(../images/shoes.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 460px;
+}
+
+.slider-desc {
+	width: 380px;
+}
+
+.slider__row {
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+	min-height: 460px;
+}
+
+.slider-desc div {
+	margin-bottom: 15px;
+}
+
+.slider-desc {
+	margin-right: 40px;
+}
+
+.slider-desc__cost {
+	width: 68px;
+	height: 68px;
+	background: #57c5a0;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+}
+
+.slider-desc__title {
+	font-size: 40px;
+	color: #242424;
+}
+
+.slider-desc__text {
+	font-size: 20px;
+	color: #242424;
+	line-height: 25px;
+}
+
+.slider-desc__menu ul {
+	display: flex;
+}
+
+.slider-desc__menu li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	color: #737373;
+	margin: 0 1px;
+}
+
+.slider-desc__menu li:hover {
+	color: #57c5a0;
+	cursor: pointer;
+}
+
+.slider-desc__menu li:first-child {
+	margin-left: none;
+}
+
+.slider-desc__menu li:last-child {
+	margin-right: none;
+}
+
+.slider-desc__link_active {
+	color: #57c5a0 !important;
+}
+
+/*__________________slider__nav______________*/
+
+.slider__nav {
+	background: #2e2e2e;
+}
+
+.slider__line {
+	height: 10px;
+	background: #000;
+	display: flex;
+	padding: 2px 5px;
+	margin-top: 6px;
+}
+
+.slider__wrap-green-line {
+	padding: 0 4px;
+	flex: 0 0 20%;
+	border-right: 1px solid #646464;
+	border-left: 1px solid #646464;
+}
+
+.slider__wrap-green-line:first-child {
+	border-left:none;
+}
+
+.slider__wrap-green-line:last-child {
+	border-right:none;
+}
+
+.slider__mini-line {
+	height: 6px;
+}
+
+.slider__mini-line_active, .slider__mini-line:hover {
+	background: #57c5a0;
+	cursor: pointer;
+}
+
+.slider__line-desc {
+	display: flex;
+	padding: 0 4px;
+}
+
+.slider-item {
+	flex: 0 0 20%;
+	padding: 15px 0;
+	text-align: center;
+}
+
+.slider-item__title {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.5;
+  margin-bottom: 8px;
+}
+
+.slider-item__subtitle {
+  font-size: 12px;
+  color: #ADADAD;
+}
+
+.slider-item__title_active, .slider-item__title:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
